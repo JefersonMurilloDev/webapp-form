@@ -1,0 +1,30 @@
+# Archivos compilados
+/target/
+*.class
+
+# Archivos de configuración de IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Archivos de configuración con datos sensibles
+*.properties
+application.yml
+application.yaml
+*.env
+
+# Logs
+*.log
+logs/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Otros archivos sensibles
+src/main/resources/credentials.json
+**/passwords.txt
+**/secret.txt
+
